@@ -476,7 +476,7 @@ public class MyController {
 		
 		else {
 		try {
-			RazorpayClient client=new RazorpayClient("rzp_test_2vS5XpmEVXg8ez","NfpcuEgEdMhM0Pbm4Twrr0vb");
+			RazorpayClient client=new RazorpayClient("rzp_test_2vS5Xez","NfpcuEgwrr0vb");
 			Payment link=client.payments.fetch(paymentId);
 			String status=link.get("status").toString();
 			
