@@ -51,9 +51,9 @@ public class MailService {
 	private String generatePaymentLink(Enrollment enroll) {
 	    try {
 	        
-//	    	RazorpayClient client = new RazorpayClient("rzp_test_V5pAJ9hScigWhh", "XX8OVefzE6d6rb2abRfFinuF");
+
 //	    	System.out.println("ClassLoader for RazorpayClient: " + RazorpayClient.class.getClassLoader());
-	    	RazorpayClient c=new RazorpayClient("rzp_test_2vS5XpmEVXg8ez", "NfpcuEgEdMhM0Pbm4Twrr0vb");
+	    	RazorpayClient c=new RazorpayClient("rzp_test_2vS5XpmE", "NfpcuEgEdMhM0Pbb");
 	        JSONObject request = new JSONObject();
 	        request.put("amount", enroll.getAnnouncement().getPrice()*100); // amount in paise
 	        request.put("currency", "INR");
