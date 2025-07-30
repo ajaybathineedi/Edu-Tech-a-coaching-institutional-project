@@ -26,7 +26,7 @@
 | **Frontend**    | HTML, JSP, Bootstrap, CSS                   |
 | **Backend**     | Java, Spring MVC, Spring Data JPA           |
 | **Database**    | MySQL                                       |
-| **Tools**       | Eclipse/IntelliJ, Apache Tomcat, Git        |
+| **Tools**       | Eclipse, Apache Tomcat, Git        |
 | **Others**      | JavaMail API, Razorpay API (Payment)        |
 
 ---
